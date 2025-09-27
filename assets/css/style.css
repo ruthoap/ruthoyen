@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 1.5rem;    /* 余白 */
+  line-height: 1.6;   /* 読みやすさ */
+}
+
+/* スマホ用調整 */
+@media (max-width: 600px) {
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    max-width: 100%;   /* スマホは画面幅いっぱい */
+    padding: 1rem;     /* 余白を少し減らす */
+  }
+}
+
+a {
+  color: #4fc3f7;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
